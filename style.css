@@ -1,0 +1,302 @@
+/* common style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #f54c0a;
+    --secondary: #6d6b6b;
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+
+}
+
+.around {
+    justify-content: space-around;
+}
+
+
+.container {
+    padding: 30px 10px;
+}
+
+
+.nav-bar {
+    padding: 5px 25px;
+    border-radius: 5px;
+    margin: 10px 40px;
+
+}
+
+.nav-bar>.logo {
+    width: 50px;
+}
+
+
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links>.active {
+    color: var(--primary);
+}
+.nav-links>li {
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.nav-links>li>a {
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+
+
+
+
+.nav-bar>.icons-group>.fa-brands {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+
+.Design-section{
+    margin: 100px 50px;
+    margin-bottom: 170px;
+}
+
+.Design-section>h2{
+    text-align: center;
+    margin: 60px 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Design-section>h2>samp{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+
+.Design>img{
+    width: 550px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+
+
+
+.introduction{
+    margin-right: 50px;
+    cursor: pointer;
+}
+.introduction>h2{
+    font-size: 22px;
+    color: var(--primary);
+}
+.introduction>h3{
+    font-size: 22px;
+    color: #95919180;
+}
+.introduction>h3:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+
+
+.fashion>h2{
+    margin: 30px 20px;
+    font-weight: 700;
+}
+.fashion>h2>samp{
+    color: var(--primary);
+}
+.fashion>h5{
+    margin: 20px 0;
+    color: var(--secondary);
+    font-weight: 300;
+}
+
+
+
+
+.shop-content{
+    margin-right: 60px;
+}
+.shop-content>img{
+    width: 48%;
+    margin-right: 60px;
+
+}
+
+.content>h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.content>h1>samp{
+    
+    color: var(--primary);
+    font-size: 40px;
+    font-weight: 900;
+}
+.content>h5{
+    margin: 30px 0;
+    color: #857e7ec7;
+    font-weight: 200;
+    font-size: 23px;
+    
+}
+.content>p{
+    margin: 30px 0;
+    font-weight: 200;
+    
+}
+
+
+.featured{
+    margin: 40px 40px;
+}
+
+.featured>h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+.products{
+    width: 380px;
+    margin: 0 20px;
+}
+.products>img{
+    width: 380px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.tree>h3:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+.components>.original{
+    margin: 20px;
+}
+.original{
+    margin-top: 40px;
+}
+
+
+
+.contact{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.contact>h4{
+    font-size: 25px;
+    color: #6d6b6b;
+}
+.contact>h4:hover{
+    font-size: 25px;
+    color: var(--primary);
+    cursor: pointer;
+}
+.contact>hr{
+    margin: 0 auto;
+    width: 235px;
+}
+
+
+
+.main-footer{
+    background-color: #1b1a1a;
+    color: #727272;
+    padding: 50px 50px;
+    padding-left: 200px;
+}
+
+.little>h1{
+    font-weight: 600;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.little>h1>samp{
+    color: #7b7878;
+}
+.little>h1>samp:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+.little>p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.little>p>samp:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
+
+
+.sitemap>h1{
+    color: #fff;
+}
+.sitemap>h4{
+    color: #757171;
+    font-size: 17px;
+}
+.sitemap>h4:hover{
+    color: #e9e3e3;
+    font-size: 17px;
+    cursor: pointer;
+}
+.products>p:hover{
+    color: #e9e3e3;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+/* .icons>h2{
+    color: #fff;
+
+}
+.icons>.fa-solid{
+    margin: 10px;
+
+}
+.icons>.fa-solid:hover{
+    color: #fff;
+    cursor: pointer;
+
+}
+.icons>.fa-brands{
+    margin: 10px;
+
+}
+.icons>.fa-brands:hover{
+    color: #fff;
+    cursor: pointer;
+
+} */
